@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    >
+
+    <EditText
+        android:id="@+id/first_num"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="206dp"
+        android:hint="Enter first number"
+        >
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/second_num"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="206dp"
+        android:hint="Enter second number">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="502dp"
+        android:background="@color/orange"
+        android:backgroundTint="@color/orange"
+        android:text="Summing" />
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="502dp"
+        android:background="@color/orange"
+        android:backgroundTint="@color/orange"
+        android:text="Multiplication" />
+
+</RelativeLayout>
