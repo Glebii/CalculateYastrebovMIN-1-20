@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
         multiplicationBtn.setOnClickListener(view -> {
-//            firstNumField = findViewById(R.id.first_num);
-//            secondNumField = findViewById(R.id.second_num);
             int first_num = Integer.parseInt(firstNumField.getText().toString());
             int second_num = Integer.parseInt(secondNumField.getText().toString());
             String result =  "The result is: "+ (first_num * second_num);
